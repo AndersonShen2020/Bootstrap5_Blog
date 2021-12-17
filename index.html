@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      :root {
+        --bs-font-sans-serif: "Microsoft JhengHei", 微軟正黑體, system-ui, -apple-system, "Segoe UI",
+          Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+          "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      }
+      .bg-cover {
+        background-position: center center;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Logo -->
+      <header class="py-3 text-center border-bottom">
+        <a href="#" class="h2 link-dark text-decoration-none">Blog</a>
+      </header>
+
+      <!-- navbar -->
+      <div class="overflow-auto py-1">
+        <nav class="nav justify-content-between flex-nowrap text-nowrap">
+          <a class="nav-link link-secondary" href="#">HTML</a>
+          <a class="nav-link link-secondary" href="#">CSS</a>
+          <a class="nav-link link-secondary" href="#">JavaScript</a>
+          <a class="nav-link link-secondary" href="#">Backend</a>
+          <a class="nav-link link-secondary" href="#">社群</a>
+          <a class="nav-link link-secondary" href="#">技術</a>
+          <a class="nav-link link-secondary" href="#">管理</a>
+          <a class="nav-link link-secondary" href="#">創業</a>
+          <a class="nav-link link-secondary" href="#">設計</a>
+          <a class="nav-link link-secondary" href="#">藝術</a>
+          <a class="nav-link link-secondary" href="#">理財</a>
+        </nav>
+      </div>
+
+      <!-- 首圖背景 -->
+      <div
+        class="text-white p-4 p-md-5 rounded-3 bg-cover mb-4"
+        style="
+          background-image: url(https://images.unsplash.com/photo-1549074862-6173e20d02a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+        "
+      >
+        <div class="col-md-6">
+          <h1 class="display-4 fst-italic">你絕對想不到深海的我創造了什麼</h1>
+          <p class="lead my-3">
+            是心藝景不分。首臺帶成他又請是續健現通清物報住處一詩難轉市離新上的水一代主，價護起能顧了一成緊認牛資界期也智二大媽；自人近加，入的行利去前為力打非準高些有如他這。
+          </p>
+          <p class="lead"><a class="text-white" href="#">繼續閱讀</a></p>
+        </div>
+      </div>
+
+      <!-- 水平卡片排版技巧 -->
+      <div class="row row-cols-1 row-cols-lg-2 mb-5">
+        <div class="col">
+          <div class="card row g-0 flex-row h-100">
+            <div class="col">
+              <div class="p-4 d-flex flex-column h-100">
+                <strong class="d-inline-block mb-2 text-primary">藝術</strong>
+                <h3 class="mb-0">創造力不等於想像力</h3>
+                <div class="mb-1 text-muted">三月 12 日</div>
+                <p class="card-text mb-auto">
+                  的不是也有作了在被一個，的那個有問題坐在心挑戰，名其時候我頭髮我一起不住。
+                </p>
+                <a href="#" class="stretched-link">繼續閱讀</a>
+              </div>
+            </div>
+            <div
+              class="col-4 bg-cover d-none d-lg-block"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1562095241-8c6714fd4178?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTN8fG9jZWFufGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=60);
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card row g-0 flex-row h-100">
+            <div class="col">
+              <div class="p-4 d-flex flex-column h-100">
+                <strong class="d-inline-block mb-2 text-primary">藝術</strong>
+                <h3 class="mb-0">創造力不等於想像力</h3>
+                <div class="mb-1 text-muted">三月 12 日</div>
+                <p class="card-text mb-auto">
+                  的不是也有作了在被一個，的那個有問題坐在心挑戰，名其時候我頭髮我一起不住。是我要好好，需去哪心去了的不對於現。
+                </p>
+                <a href="#" class="stretched-link">繼續閱讀</a>
+              </div>
+            </div>
+            <div
+              class="col-4 bg-cover d-none d-lg-block"
+              style="
+                background-image: url(https://images.unsplash.com/photo-1503756234508-e32369269deb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODB8fG9jZWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=200&q=60);
+              "
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 內文及側欄安排 -->
+      <div class="row g-md-5">
+        <div class="col-md-8">
+          <article>
+            <h2>深海、愛與尊敬</h2>
+            <p>2022 年 一月 <a href="#">卡斯伯</a></p>
+            <p class="text-muted">
+              年都啊啊啊然後我還有，是真，的是的樣不好意的老：出了我看到，好是他們上面寫：喻文州前後我。這個是苦了原歡一小商店⋯卡卡並沒有這是，當年得他們很想下班，唱，圖人們直播。就不想一張，給他的歌個月兩人現實的東。
+            </p>
+            <hr />
+            <p>
+              了好期待越來越天，好像了吧⋯是要看哈哈，我自己所以，雖然有是真的討論人所以的，公室老師也太冬我真女孩冷了。基本特這種小。的遺書像包機不重要法⋯所以我在那內容喜歡一原來疾病，跟痛練喔我雙人的是一的大家了有。
+            </p>
+            <h2>會發生今上麵包</h2>
+            <p>
+              感動，為你可能會現在的雖然⋯一點間不是天氣到那樣的，繼續能起認親看的時們兩什麼大，有個自己的是被一很多的不是，請前好好自信想要就禮裝。可愛的動作就人啊出來，事才看到不過就，忘記，這樣的那個看看我也不。人要還可歡的時候我本來就⋯看有沒就好，溫暖的直而已眾好好笑，了我到心呼吸大概好像，北部，應該可垃圾臉書附近的經驗。的生只能至想再全沒有，上班下來看不也好喜，這樣的就是是要，敏感而且不太來，的電影喜歡你是喜歡我太，想做的不住著。過有澤村好可愛就就直接，我冬了下是不是，應該男人保欸自己帶我殺人，話感覺，朋友都通知稱讚標字的欸不，差不多服務迦爾納得沒有哈染了一。
+            </p>
+            <h3>堅持還是世界因為我</h3>
+            <p>
+              看下去了如果，為自己不喜彷彿出去，的正天的不就個，順便明知搞沒這順的指。太誇張次都為什不除了，自己的沒有，力這件我真客人等級了我：
+            </p>
+            <ul>
+              <li>得在這武器真的⋯鍵字好像可</li>
+              <li>是現戰可以有意難道覺得應，動作上有畫的謝謝您，都的是然想起。</li>
+              <li>要是哥哥是話應該。日偷偷說請不要</li>
+            </ul>
+            <figure class="figure">
+              <img
+                src="https://images.unsplash.com/photo-1504472478235-9bc48ba4d60f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80"
+                class="img-fluid mb-3 rounded-2"
+                alt="..."
+              />
+              <figcaption class="figure-caption">的天謝大家要一漂亮上面寫</figcaption>
+            </figure>
+          </article>
+        </div>
+        <div class="col-md-4 d-none d-md-block">
+          <div class="sticky-top" style="top: 16px">
+            <div class="p-4 bg-light rounded">
+              <h4>關於我</h4>
+              <p class="mb-0">
+                接列的老論看我那就同事。覺得真的特但其實，能一間真的感覺這是並不應該在幹嘛，不得不得看他們吧排球的東西。
+              </p>
+            </div>
+            <div class="p-4">
+              <h4>封存</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#">2021年 三月</a></li>
+                <li><a href="#">2021年 二月</a></li>
+                <li><a href="#">2021年 一月</a></li>
+                <li><a href="#">2020年 十二月</a></li>
+                <li><a href="#">2020年 十ㄧ月</a></li>
+                <li><a href="#">2020年 十月</a></li>
+                <li><a href="#">2020年 九月</a></li>
+                <li><a href="#">2020年 八月</a></li>
+                <li><a href="#">2020年 七月</a></li>
+                <li><a href="#">2020年 六月</a></li>
+                <li><a href="#">2020年 五月</a></li>
+                <li><a href="#">2020年 四月</a></li>
+              </ol>
+            </div>
+            <div class="p-4">
+              <h4>追蹤我</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-light border-top py-4 mt-4 text-center">
+      <p>六角學院 Bootstrap 5 練習作業。</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
